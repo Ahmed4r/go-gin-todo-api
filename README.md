@@ -58,14 +58,16 @@ Frontend runs on:
 http://localhost:5173
 
 ## Screenshots
-<table>
-	<tr>
-		<td align="center"><img src="screenshots/init.png" alt="server init" width="720" /><br />initialization</td>
-		<td align="center"><img src="screenshots/req.png" alt="request" width="720" /><br />server running</td>
-		<td align="center"><img src="screenshots/ui.png" alt="Todo List" width="720" /><br />Todo List</td>
-	</tr>
-</table>
 
+<p align="center">
+  <img src="screenshots/init.png" alt="Server initialization" width="30%" />
+  <img src="screenshots/req.png" alt="Server request" width="30%" />
+  <img src="screenshots/ui.png" alt="Todo list UI" width="30%" />
+</p>
+
+<p align="center">
+  <sub>Server init&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Server running&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Todo List</sub>
+</p>
 🎯 Goal
 
 The main goal of this project was learning by building and getting more comfortable with Go backend development.
