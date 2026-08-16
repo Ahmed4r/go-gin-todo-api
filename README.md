@@ -1,16 +1,71 @@
-# React + Vite
+# Go + React Todo App 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A small full-stack Todo application built with **Go, Gin, and React**.
 
-Currently, two official plugins are available:
+I previously built a similar Todo app using Flutter, but decided to rebuild it with Go and Gin to practice **backend development and REST APIs**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Create Todo
+- Get Todos
+- Update Todo
+- Delete Todo
+- React frontend connected to Go backend
+- JSON API
+- CORS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- Go
+- Gin
+- React
+- JavaScript
+- REST API
+- JSON
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## API Endpoints
+
+| Method | Endpoint          | Description |
+| ------ | ----------------- | ----------- |
+| POST   | `/addTodo`        | Create Todo |
+| GET    | `/getTodos`       | Get Todos   |
+| PATCH  | `/updateTodo/:id` | Update Todo |
+| DELETE | `/deleteTodo/:id` | Delete Todo |
+
+## Run Locally
+
+### Backend
+
+```bash
+cd backend
+go mod tidy
+go run goapp.go
+```
+
+Backend runs on:
+
+http://localhost:8080
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+Frontend runs on:
+
+http://localhost:5173
+
+## Screenshots
+<table>
+	<tr>
+		<td align="center"><img src="screenshots/init.png" alt="server init" width="720" /><br />initialization</td>
+		<td align="center"><img src="screenshots/req.png" alt="request" width="720" /><br />server running</td>
+		<td align="center"><img src="screenshots/ui.png" alt="Todo List" width="720" /><br />Todo List</td>
+	</tr>
+</table>
+
+🎯 Goal
+
+The main goal of this project was learning by building and getting more comfortable with Go backend development.
